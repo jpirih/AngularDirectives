@@ -1,0 +1,30 @@
+.bold-text{
+    font-weight: bold;
+}
+.data-box{
+    padding: 15px;
+    border-radius: 5px;
+    border:1px solid lightgray;
+    background-color: lightblue;
+}
+
+.form-box{
+    padding: 15px;
+    border-radius: 5px;
+    border:1px solid lightgray;
+    background-color:lightsteelblue;
+}
+
+.invalid-input{
+    border: 2px solid red;
+    color: red;
+}
+.email-list{
+    list-style-type: none;
+}
+.list-box{
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: lightcyan;
+}

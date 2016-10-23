@@ -1,0 +1,8 @@
+<!-- message text area validation template  -->
+<p ng-class="{'text-danger': !validMessage, 'text-success': validMessage}">
+    <span ng-if="!validMessage"> Obvezno vpiši besedilo dolgo vsaj 10 znakov ({{ messageLength}})</span> <br>
+    <span ng-show="validMessage"> Dolžina vpisanega besedila je OK ({{ messageLength}})</span> <br>
+</p>
+<p>
+    <span class="bold-text">Vpisano besedilo: </span> {{ message }}
+</p>

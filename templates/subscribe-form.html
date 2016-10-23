@@ -1,0 +1,15 @@
+<div class="form-box">
+    <h3>Prijava na E-Novice</h3> <br>
+    <!-- success message -->
+    <div class="alert alert-success" ng-if="statusMessage">
+        <span class="glyphicon glyphicon-ok"></span>
+        {{  statusMessage }}
+    </div>
+    <!-- subscribe form -->
+    <form name="subscribeForm"  class="form-inline" novalidate>
+        <input type="email" class="form-control" name="email" placeholder="john@example.com"  ng-required="true" ng-class="{'invalid-input': subscribeForm.email.$invalid && subscribeForm.email.$dirty}" ng-model="email">
+        <button ng-disabled="subscribeForm.$invalid" class="btn btn-success" ng-click="subscribe(email)">
+            Subscribe
+        </button>s
+    </form>
+</div>
